@@ -2,7 +2,6 @@ import { NextResponse } from "next/server";
 import WebSocket from "ws";
 import protobuf from "protobufjs";
 import path from "path";
-import fs from "fs";
 
 // Load and prepare the Protobuf schema
 const protoPath = path.join(process.cwd(), "app/api/market-feed/MarketDataFeedV3.proto");
